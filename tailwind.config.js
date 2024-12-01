@@ -16,7 +16,7 @@ module.exports = {
       colors: {
         lightPurple: "#6A37F3",
         darkPurple: "#4000FF",
-        // bgPurple: "#10141f",
+        bgPurple: "#1c1334",
       },
     },
   },
