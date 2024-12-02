@@ -5,6 +5,7 @@ import tabela from '../assets/Tabela.png'
 import star from '../assets/star.png'
 import rank from '../assets/rank.png'
 import people from '../assets/people.png'
+import FooterTabs from '../components/FooterTabs'
 
 
 const usersDetails = [
@@ -134,6 +135,8 @@ const page = () => {
               </div>
             ))}
           </div>
+
+          <FooterTabs />
       </div>
     </div>
   )
