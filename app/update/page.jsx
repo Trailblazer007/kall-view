@@ -42,7 +42,7 @@ const page = () => {
               />
             </div>
 
-            <p className="text-[#69696A] font-[12px]">Upadte</p>
+            <p className="text-[#69696A] font-[12px]">Update</p>
           </div>
 
           <div className="b-2 w-full mt-2 bg-[#4B4355] h-[0.1px] "></div>
