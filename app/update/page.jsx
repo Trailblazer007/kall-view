@@ -8,6 +8,7 @@ import telegram from "../assets/telegram.png";
 import twitter from "../assets/twitter.png";
 import idCard from "../assets/id-card.png";
 import avatar from "../assets/avatar.png";
+import FooterTabs from "../components/FooterTabs";
 
 const pointDataDetails = [
   { amount: "1,500", text: "Total Points" },
@@ -21,7 +22,7 @@ const pointDataDetails = [
 const page = () => {
   return (
     <div className="w-[100vw] h-[100vh] flex flex-col items-center">
-      <div className="w-[390px] bg-[#04173c] h-[100vh] text-white p-4">
+      <div className="w-[390px] bg-[#04173c] text-white p-4">
         {/* update section */}
         <div className="b-2 w-full bg-[#4B4355] h-[0.1px] "></div>
         <div>
@@ -135,6 +136,8 @@ const page = () => {
           </div>
           
         </div>
+
+        <FooterTabs />
       </div>
     </div>
   );
