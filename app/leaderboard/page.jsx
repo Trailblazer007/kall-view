@@ -22,7 +22,7 @@ const usersDetails = [
 const page = () => {
   return (
     <div className='w-[100vw] h-[100vh] flex flex-col items-center'>
-      <div className='w-[390px] bg-[#04173c] h-[100vh] text-white p-4'>
+      <div className='w-[390px] bg-[#04173c] text-white p-4'>
 
         <div className=' mt-10 p-4'>
         <div className='b-2 w-full bg-white h-[0.1px] '></div>
