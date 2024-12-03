@@ -7,3 +7,31 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.hero-image-two-i {
+  background-image: url("/images/elements.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.hero-image-two-ii {
+  background-image: url("/images/rockets-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-bg {
+  height: 334px;
+  background-image: url("/images/bg-grill.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.font-monserrat {
+  font-family: "montserrat";
+}
+
+.font-poppins {
+  font-family: "poppins";
+}
